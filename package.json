@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start:db":"json-server -w db.json",
+    "start:parcel": "parcel index.html"
+
+  },
+  "alias": {
+    "process": false
+ },
+ "devDependencies": {
+  "parcel": "2.3.1"
+},
+"dependencies": {
+  "axios": "0.25.0"
+}
+}
